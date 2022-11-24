@@ -1,7 +1,7 @@
 import React from 'react';
 import './AddButtonTask.css';
 
-export default function CreateTodoButton(props) {
+function AddButtonTask(props) {
   const onClickButton = () => {
     props.setOpenModal(prevState => !prevState);
   };
@@ -15,3 +15,5 @@ export default function CreateTodoButton(props) {
     </button>
   );
 };
+
+export { AddButtonTask };
