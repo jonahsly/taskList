@@ -1,7 +1,7 @@
 import React from "react";
 
 function EmptyTask() {
-    return <p>Create your first TODO</p>;
+    return <p>Create a new Task</p>;
 };
 
 export { EmptyTask };
