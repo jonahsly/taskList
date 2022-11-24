@@ -6,7 +6,7 @@ function CounterTask(){
     const {totalTasks, completedTasks} = React.useContext(TaskContext);
 
     return (
-        <h2 className="TaskCounter">Has completado {completedTasks} de {totalTasks} TASKs</h2>
+        <h2 className="TaskCounter">You have completed {completedTasks} of {totalTasks} tasks</h2>
     );
 };
 

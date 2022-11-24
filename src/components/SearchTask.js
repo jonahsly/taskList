@@ -12,7 +12,7 @@ function SearchTask() {
     return (
         <input
         className="TaskSearch"
-        placeholder="Search"
+        placeholder="Search task"
         value={searchValue}
         onChange={onSearchValueChange}
         />
